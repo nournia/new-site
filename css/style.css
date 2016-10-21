@@ -1,0 +1,57 @@
+#aa_particles, #aa_particles2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#android-softwars-text{
+    width: 90%;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    direction: rtl;
+    margin: 5%;
+}
+
+
+#typed-div > div, #typed-div a, #typed-div img{
+    width: 100%;
+    height: 100%;
+}
+
+#typed-text{
+    font-size: 30px;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    z-index: 1000;
+    direction: rtl;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    color: #ffffff;
+    font-size: 30px;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
