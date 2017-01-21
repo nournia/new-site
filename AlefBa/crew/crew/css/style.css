@@ -941,7 +941,7 @@ h1, h2, h3, h4, h5, h6 {
 .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover, .owl-theme .owl-controls .owl-nav [class*="owl-"]:focus {
   background: none !important;
 }
-
+/*
 .owl-theme .owl-dots {
   position: absolute;
   bottom: 0;
@@ -954,7 +954,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2.5em;
 }
 
-/* .owl-theme .owl-dots .owl-dot span {
+ .owl-theme .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
   background: rgba(255, 255, 255, 0.2);
