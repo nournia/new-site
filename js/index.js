@@ -1,3 +1,16 @@
+function animateOverlay(id) {
+    $(id).fadeIn(500);
+    setTimeout(function(){
+        $(id).fadeOut(500);
+    }, 5000);
+}
+
+function infiniteAnimation(){
+    animateOverlay(".golrokh");
+    setTimeout(function(){animateOverlay(".naghsh")}, 6000);
+    setTimeout(function(){animateOverlay(".alefba")}, 12000);
+    setTimeout(function(){ infiniteAnimation()}, 18000);
+}
 $(document).ready(function(){
     $(function(){
         $("#typed").typed({
@@ -18,5 +31,8 @@ $(document).ready(function(){
         block.find("img, h3").animate({"marginTop" : 70}, 500, 'easeOutCirc');
         block.find("p").toggleClass("visible");
     });
+
+    infiniteAnimation();
+
 
 });
