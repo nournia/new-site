@@ -224,23 +224,22 @@ ul.social-buttons li:last-child { margin-right: 0; }
 
 #opensource .section-title{
     z-index: 1;
-    background: #fafafa;
     margin-bottom: 0;
     padding-bottom: 20px;
     height: 100vh;
 }
 
 .section-title{
-    background: url("https://subtlepatterns.com/patterns/congruent_pentagon.png");
+    background: white;
     z-index: 1;
     padding-top: 10px;
     margin-bottom: 0;
     padding-bottom: 10px;
 }
-.navbar-shrink{
+/*.navbar-shrink{
     background: url("https://subtlepatterns.com/patterns/congruent_pentagon.png") !important;
 }
-
+*/
 .footer{
     height: 25vh;
     position: relative;
@@ -250,4 +249,12 @@ ul.social-buttons li:last-child { margin-right: 0; }
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.section-title .dot{
+    border-right: 2px rgba(0, 0, 0, 0.48);
+    height: 50px;
+    width: 0px;
+    margin: 30px auto;
+    border-right-style: dotted;
 }
