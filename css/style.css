@@ -258,3 +258,11 @@ ul.social-buttons li:last-child { margin-right: 0; }
     margin: 30px auto;
     border-right-style: dotted;
 }
+
+.navbar-shrink .nav-container .navbar-header{
+    display: block !important;
+}
+
+.navbar-header {
+    display: none;
+}
