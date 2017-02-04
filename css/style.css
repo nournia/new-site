@@ -108,7 +108,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FFFFFF;
+    border: 1px solid white;
+    color: white;
+}
+
+.idea-block .more_btn:hover{
+    background-color: white;
+    color: #003050;
 }
 
 .hidden{
