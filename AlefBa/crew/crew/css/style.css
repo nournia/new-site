@@ -460,6 +460,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #7f7f7f;
   margin-bottom: 70px;
   position: relative;
+
 }
 @media screen and (max-width: 992px) {
   #fh5co-our-services .box {
@@ -575,23 +576,26 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 480px) {
   #fh5co-press .fh5co-press-item {
     display: block !important;
+
   }
 }
 #fh5co-press .fh5co-press-item .fh5co-press-text,
 #fh5co-press .fh5co-press-item .fh5co-press-img {
   width: 50%;
+  float: right;
+  text-align: right;
 }
 @media screen and (max-width: 480px) {
   #fh5co-press .fh5co-press-item .fh5co-press-text,
   #fh5co-press .fh5co-press-item .fh5co-press-img {
     height: inherit;
-    float: none !important;
+    float: right !important;
     width: 100%;
     display: block !important;
   }
 }
 #fh5co-press .fh5co-press-item .fh5co-press-text {
-  float: left;
+  float: right;
   padding: 20px;
 }
 #fh5co-press .fh5co-press-item .fh5co-press-text .fh5co-press-title {
@@ -604,7 +608,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-press .fh5co-press-item .fh5co-press-text .fh5co-press-title .fh5co-border {
   position: absolute;
-  left: 0;
+ right: 0;
   bottom: 0;
   height: 2px;
   width: 30px;
