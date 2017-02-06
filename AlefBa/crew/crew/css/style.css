@@ -540,7 +540,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
 }
 #fh5co-features .fh5co-service .fh5co-icon {
-  float: left;
+  float: right;
   width: 20%;
 }
 #fh5co-features .fh5co-service .fh5co-icon i {
@@ -558,7 +558,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-press .fh5co-press-item {
   background: #fff;
-  float: left;
+  float: right;
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
