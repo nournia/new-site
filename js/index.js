@@ -34,5 +34,9 @@ $(document).ready(function(){
 
     infiniteAnimation();
 
+    $("div.text-colored > *").click(function(e){
+        window.open(e.currentTarget.closest(".text-colored").dataset.href, "_blank");
+    });
+
 
 });

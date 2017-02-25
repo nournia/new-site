@@ -198,7 +198,7 @@ ul.social-buttons li:last-child { margin-right: 0; }
     bottom: 30vh;
 }
 #alefba-caption{
-    top: 10vh;
+    top: 20vh;
 }
 .caption h2{
     color: white;
@@ -317,8 +317,13 @@ ul.social-buttons li:last-child { margin-right: 0; }
 
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
     color: #ffff00;
+    cursor: pointer;
 }
-.navbar-default .navbar-shrink.navbar-nav>li>a:hover, .navbar-default .navbar-shrink.navbar-nav>li>a:focus {
+.navbar-default.navbar-shrink .navbar-nav>li>a:hover, .navbar-default.navbar-shrink .navbar-nav>li>a:focus {
     color: #04acbb;
+}
+
+div.text-colored *{
+    cursor: pointer;
 }
 
