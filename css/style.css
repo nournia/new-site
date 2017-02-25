@@ -285,8 +285,15 @@ ul.social-buttons li:last-child { margin-right: 0; }
     font-weight: 300;
 }
 
+.tp-caption {
+    visibility: visible !important;
+}
 .large_bold_white_15 {
     text-shadow: 0px 2px 2px rgb(0,0,0);
+}
+
+.animated{
+    -webkit-animation-delay: 1s !important;
 }
 /*
 .navbar-default {
