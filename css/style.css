@@ -194,8 +194,8 @@ ul.social-buttons li:last-child { margin-right: 0; }
     width: 100%;
     text-align: center;
 }
-#naghsh-caption, #golrokh-caption{            
-    bottom: 30vh;           
+#naghsh-caption, #golrokh-caption{
+    bottom: 30vh;
 }
 #alefba-caption{
     top: 10vh;
@@ -279,6 +279,39 @@ ul.social-buttons li:last-child { margin-right: 0; }
 }
 
 .tp-caption p{
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
-    font-weight: bold;
+    background-color: rgba(0,0,0,0.6);
+    line-height: 1 !important;
+    padding: 5px 7px !important;
+    font-weight: 300;
 }
+
+.large_bold_white_15 {
+    text-shadow: 0px 2px 2px rgb(0,0,0);
+}
+/*
+.navbar-default {
+    // background: linear-gradient(0, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.navbar-default.navbar-shrink {
+    // background: white;
+}
+
+.navbar-nav>li>a {
+    line-height: 70px;
+}
+*/
+.navbar-default a {
+    text-shadow: 0px 2px 0px rgb(0,0,0);
+}
+.navbar-default.navbar-shrink a {
+    text-shadow: none;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+    color: #ffff00;
+}
+.navbar-default .navbar-shrink.navbar-nav>li>a:hover, .navbar-default .navbar-shrink.navbar-nav>li>a:focus {
+    color: #04acbb;
+}
+
