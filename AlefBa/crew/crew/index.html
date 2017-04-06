@@ -89,17 +89,16 @@
 		        <div class="navbar-header">
 		        	<!-- Mobile Toggle Menu Button -->
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		          	<a class="navbar-brand" href="index.html">الفبا</a>
+		          	<a class="navbar-brand" href="#" data-nav-section="home">الفبا</a>
 		        </div>
 		        <div id="navbar" class="navbar-collapse collapse">
-		          <ul class="nav navbar-nav navbar-right">
-		            <li class="active"><a href="#" data-nav-section="home"><span>آغاز</span></a></li>
+		          <ul class="nav navbar-nav navbar-right" style="float: right; direction: rtl;">
 		            <li><a href="#" data-nav-section="services"><span>ویژگی ها</span></a></li>
 		            <li><a href="#" data-nav-section="about"><span>کاربردها</span></a></li>
-		            <li><a href="#" data-nav-section="features"><span>نمونه ها</span></a></li>
-		            <li><a href="#" data-nav-section="testimonials"><span>ارزیابی</span></a></li>
+		            <li><a href="#" data-nav-section="features"><span>نکات فنی</span></a></li>
+		            <li><a href="#" data-nav-section="press"><span>در عمل</span></a></li>
 		          <!--  <li><a href="#" data-nav-section="pricing"><span>Pricing</span></a></li>-->
-		            <li><a href="#" data-nav-section="press"><span>ارتباط با ما</span></a></li>
+		            <!-- <li><a href="#" data-nav-section="press"><span>ارتباط با ما</span></a></li> -->
 		          </ul>
 		        </div>
 			    </nav>
@@ -108,41 +107,18 @@
 	</header>
 
 	<div id="slider" data-section="home">
-		<div class="owl-carousel owl-carousel-fullwidth">
 			<!-- You may change the background color here. -->
-		    <div class="item" style="background-image:url(images/intro5.jpg)">
-		    	<div class="container" style="position: relative;">
-		    		<div class="row">
-					    <div class="col-md-7 col-sm-7">
-			    			<div class="fh5co-owl-text-wrap">
-						    	<div class="fh5co-owl-text">
+		    <div class="item" style="background:url(images/intro5.jpg) center center no-repeat / cover; height: 100vh; position: relative;">
+		    	<div class="container" >
+		    		<div class="animated fadeIn  tp-caption large_bold_white_15" style="height: 100px; top: 0; bottom: 0; right: 0; left: 0; margin: auto; position:absolute;">
+                        الف‌با
+                </div>
+                <div class="animated  fadeIn" 
+                      style="position:absolute; top: 55%; right: 50%; transform: translate(50%, 50%);"><p style="color: white; font-size: 20px !important; direction: rtl; ">نیست بر لوح دلم جز الف قامت یار</p>
 
-						    	</div>
-						    </div>
-					    </div>
-
-
-		    		</div>
+                </div>
 		    	</div>
 		    </div>
-			<!-- You may change the background color here.  -->
-
-
-		    <div class="item" style="background-image:url(images/intro5.jpg)">
-		    	<div class="overlay"></div>
-		    	<div class="container" style="position: relative;">
-		    		<div class="row">
-		    			<div class="col-md-8 col-md-offset-2 text-center">
-		    				<div class="fh5co-owl-text-wrap">
-						    	<div class="fh5co-owl-text">
-		    						</div>
-							</div>
-		    			</div>
-		    		</div>
-		    	</div>
-		    </div>
-
-		</div>
 	</div>
 	
 
@@ -158,7 +134,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row features">
 				<div class="col-md-4">
 					<div class="box to-animate">
 						<div class="icon colored-1"><span><i class="icon-image"></i></span></div>
@@ -166,31 +142,31 @@
 						<p>اصلاح نویز، چرخش و سایه تصویر برای دقیق‌تر خواندن متن</p>
 					</div>
 					<div class="box to-animate">
-						<div class="icon colored-4"><span><i class="icon-pencil-square-o"></i></span></div>
+						<div class="icon colored-4"><span><i class="icon-font-size"></i></span></div>
 						<h3>قلم و اندازه</h3>
 						<p>خواندن متون نوشته‌شده با قلم‌های مختلف و در اندازه‌های متفاوت مثل عنوان متن یا پاورقی ها</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="box to-animate">
-						<div class="icon colored-2"><span><i class="icon-globe"></i></span></div>
+						<div class="icon colored-2"><span><i class="icon-earth"></i></span></div>
 						<h3>فارسی و انگلیسی</h3>
 						<p>خواندن نویسه های فارسی، انگلیسی و البته زبان های مشابه مثل عربی و دری؛ همه در کنار هم و در یک تصویر</p>
 					</div>
 					<div class="box to-animate">
-						<div class="icon colored-5"><span><i class="icon-files-o"></i></span></div>
+						<div class="icon colored-5"><span><i class="icon-profile"></i></span></div>
 						<h3>ساختار سند</h3>
 						<p>پیدا کردن پاراگراف‌های نوشته و تصاویر در صفحه</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="box to-animate">
-						<div class="icon colored-3"><span><i class="icon-search-plus"></i></span></div>
+						<div class="icon colored-3"><span><i class="icon-verified_user"></i></span></div>
 						<h3>اطمینان خواندن</h3>
 						<p>نویسه‌خوان هم ممکن است اشتباه کند، مثل همه ما. فقط فرقش این است که وقتی مطمئن نیست، مشخص می‌کند که این نوشته را خیلی مطمئن نیستم درست خوانده باشم</p>
 					</div>
 					<div class="box to-animate">
-						<div class="icon colored-6"><span><i class="icon-sort-alpha-asc"></i></span></div>
+						<div class="icon colored-6"><span><i class="icon-clear-formatting"></i></span></div>
 						<h3>حرکت‌های حروف</h3>
 						<p>در فارسی و عربی گاهی پیش می‌آید که یک حرف به همراه حرکت نوشته شود. مثل «کسره اضافه». نویسه‌خوان حرکت را حذف می‌کند و حروف را میخواند</p>
 					</div>
@@ -200,20 +176,31 @@
 	</div>
 
 
-	<section style="opacity: 0.8; height: 520px;" class="swag text-center">
+	<section style="opacity: 0.8; height: 520px;" class="swag text-center" >
 		<div class="container">
 			<div class="row">
-				<div style="font-size:25px;color: #ffffff"  class="col-md-8 col-md-offset-2">
-					<h1><span>در کتابخانه</span></h1>
+				<div style="color: #ffffff; font-size: 25px;"  class="col-md-8 col-md-offset-2">
+					<h1 style=" letter-spacing: 0; line-height: 2em;"><span style="font-size: 40px; font-weight: bold;"> در کتابخانه</span></h1>
 					<p>تبدیل تصاویر صفحات اسکن شده کتاب به نوشته های قابل جستجو</p>
-					<ul>
-						<li>
-							کتاب ها و مقالات عملی
-						</li>
-						<li>
-							روزنامه، مجله
-						</li>
-					</ul>
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<ul class="library-apps">
+							<li>
+								<i class="icon-books"></i> کتاب ها 
+							</li>
+							<li>
+							<i class="icon-article"></i> مقالات عملی 
+							</li>
+							<li>
+								<i class="icon-newspaper"></i> روزنامه‌ ها 
+							</li>
+							<li>
+								<i class="icon-profile"></i> مجلات 
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-4"></div>
+					
 
 				</div>
 			</div>
@@ -224,24 +211,27 @@
 
 
 	<div id="fh5co-about-us" data-section="about">
-		<div class="container">
+		<div class="container" style="direction: rtl;">
 			<div class="row row-bottom-padded-lg" id="about-us">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">کاربردهای نویسه خوان الفبا</h2>
+					<!-- <h2 class="to-animate">الفبا در سازمان</h2> -->
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 to-animate">
 							<h3></h3>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-8 to-animate">
-					<img src="images/img_1.jpg" class="img-responsive img-rounded" alt="Free HTML5 Template">
+				<div class="col-md-7 to-animate">
+					<img src="images/archive4.jpg" class="img-responsive img-rounded pull-left" >
 				</div>
-				<div class="col-md-4 to-animate">
-					<h2>How we got started</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
-					<p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day.</p>
-					<p><a href="#" class="btn btn-primary">Meet the team</a></p>
+				<div class="col-md-4 to-animate" style="text-align: justify;">
+					<h1 style="text-align: center; line-height: 1.5em;">الف‌با در سازمان</h1>
+					<p>بایگانی بسیاری از سازمان‌ها پر از اسناد کاغذی است و تولید محتوای دیجیتال از آن‌ها یعنی کلید ورود به دولت الکترونیک
+					<p>الف‌با در بایگانی، مدیریت و بازیابی انواع اسناد به کمک سازمان‌ها می‌اید.</p>
+					<ul style="list-style: none;">
+						<li> <i class="icon-files-empty"></i> اسناد اداری: پرونده، نامه، فکس </li>
+						<li> <i class="icon-calculator"></i> اسناد مالی: فاکتور، چک، صورتحساب </li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -249,9 +239,30 @@
 	<section style="opacity: 0.8; height: 520px;" class="swag1 text-center">
 		<div class="container">
 			<div class="row">
-				<div style="color: ##003050" class="col-md-8 col-md-offset-2">
-					<h1><span>در کسب و کارها</span></h1>
-						<p>هر جا که سندی هست</p>
+				<div style="color: #003050; font-size: 25px;" class="col-md-8 col-md-offset-2">
+					<h1 style=" letter-spacing: 0; line-height: 2em;"><span style="font-size: 40px; font-weight: bold;">در کسب و کارها</span></h1>
+					<p>هر جا که سندی هست</p>
+					<div class="col-md-3"></div>
+					<div class="col-md-5">
+						<ul class="library-apps" style="-webkit-padding-start: 0;">
+							<li>
+								<i class="icon-office"></i> اتوماسیون اداری
+							</li>
+							<li>
+							<i class="icon-books"></i> آرشیو اسناد
+							</li>
+							<li>
+								<i class="icon-calculator"></i> مالی و حسابداری 
+							</li>
+							<li>
+								<i class="icon-search"></i> موتور جستجو 
+							</li>
+							<li>
+								<i class="icon-target"></i> رصد و نظارت 
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-3"></div>
 				</div>
 			</div>
 		</div>
@@ -273,7 +284,7 @@
 			<div class="row row-bottom-padded-sm">
 
 				<div class="col-md-6 col-sm-8 col-xs-6 col-xxs-12 fh5co-service to-animate">
-					<div class="fh5co-icon"><i class="icon-eye"></i></div>
+					<div class="fh5co-icon"><i class="icon-speedometer"></i></div>
 					<div class="fh5co-desc">
 						<h3 style="text-align: right; padding-right: 20px">دقیق و سریع</h3>
 						<p>در بررسی‌های آزمایشگاهی دقت نویسه‌خوان را ۹۷٪ ارزیابی کردیم و برای خواند هر سند با سخت‌افزار مناسب تقریبا به ۵ ثانیه زمان نیاز دارد.</p>
@@ -281,21 +292,22 @@
 				</div>
 				<div class="clearfix visible-sm-block visible-xs-block"></div>
 				<div class="col-md-6 col-sm-8 col-xs-6 col-xxs-12 fh5co-service to-animate">
-					<div class="fh5co-icon"><i class="icon-stack-overflow"></i></div>
+					<div class="fh5co-icon"><i class="icon-make-group"></i></div>
 					<div class="fh5co-desc">
 						<h3 style="text-align: right; padding-right: 20px">یادگیری عمیق</h3>
 						<p>استفاده از فناوری روز دنیا برای نویسه‌خوانی</p>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-8 col-xs-6 col-xxs-12 fh5co-service to-animate">
-					<div class="fh5co-icon"><i class="icon-paragraph2"></i></div>
+					<div class="fh5co-icon"><i class="icon-menu"></i></div>
 					<div class="fh5co-desc">
 						<h3  style="text-align: right; padding-right: 20px">پردازش موازی</h3>
 						<p>نویسه‌خوان می‌تواند با استفاده از سخت‌افزار کارت‌گرافیک، اسناد را سریع‌تر پردازش کند. همچنین امکان پردازش توزیع‌شده اسناد در چند ماشین را فراهم می کند. </p>
 					</div>
 				</div>
+				<div class="clearfix visible-sm-block visible-xs-block"></div>
 				<div class="col-md-6 col-sm-8 col-xs-6 col-xxs-12 fh5co-service to-animate">
-					<div class="fh5co-icon"><i class="icon-speedometer"></i></div>
+					<div class="fh5co-icon"><i class="icon-pen"></i></div>
 					<div class="fh5co-desc">
 						<h3  style="text-align: right; padding-right: 20px; margin-bottom: 10px">پردازش زبان طبیعی</h3>
 						<p>
@@ -369,7 +381,7 @@
 			</div>-->
 
 
-	<!--<div id="fh5co-testimonials" data-section="testimonials">
+	<!--<div id="fh5co-testimonials" >
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
@@ -501,10 +513,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="single-animate animate-press-1">Press Releases</h2>
+					<h2 class="single-animate animate-press-1">الفبا در عمل</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext single-animate animate-press-2">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+							<h3>خواندن اسناد اسکن شده اغلب با چالش‌هایی همراه است <br /> الفبا برای هر کدام راه حلی دارد</h3>
 						</div>
 					</div>
 				</div>
@@ -513,11 +525,11 @@
 				<div class="col-md-6">
 					<!-- Press Item -->
 					<div class="fh5co-press-item to-animate">
-						<div class="fh5co-press-img" style="background-image: url(images/img_7.jpg)">
+						<div class="fh5co-press-img" style="background: url(images/structure.jpg) no-repeat center right / cover">
 						</div>
 						<div class="fh5co-press-text">
-							<h3 class="h2 fh5co-press-title">سادگی <span class="fh5co-border"></span></h3>
-							<p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+							<h3 class="h2 fh5co-press-title">خواندن متن با قلم‌ها و اندازه‌های مختلف <span class="fh5co-border"></span></h3>
+							<p>در صفحات متن معمولا عبارات بر اساس اهمیت‌شان با قلم و اندازه متفاوت نوشته می‌شوند. الفبا صفحه را می‌خواند در حالی که چند قلم متفاوت با اندازه‌های گوناگون در آن استفاده شده باشد.</p>
 							<!--<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>-->
 						</div>
 					</div>
@@ -527,11 +539,11 @@
 				<div class="col-md-6">
 					<!-- Press Item -->
 					<div class="fh5co-press-item to-animate">
-						<div class="fh5co-press-img" style="background-image: url(images/img_8.jpg)">
+						<div class="fh5co-press-img" style="background: url(images/rotation.jpg) no-repeat center center / cover">
 						</div>
 						<div class="fh5co-press-text">
-							<h3 class="h2 fh5co-press-title">تنوع <span class="fh5co-border"></span></h3>
-							<p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+							<h3 class="h2 fh5co-press-title">اصلاح چرخش و نویز تصویر سند <span class="fh5co-border"></span></h3>
+							<p>گاهی تصویر اسکن‌شده متن، با نویز همراه است یا ممکن است کاغذ آن کمی چرخیده باشد. این اشکالات پیش از تحلیل متن سند، برطرف می‌شوند.</p>
 							<!--<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>-->
                     </div>
                 </div>
@@ -541,11 +553,11 @@
 				<div class="col-md-6">
 					<!-- Press Item -->
 					<div class="fh5co-press-item to-animate">
-						<div class="fh5co-press-img" style="background-image: url(images/img_9.jpg);">
+						<div class="fh5co-press-img" style="background: url(images/pictures.jpg) no-repeat center right / cover;">
 						</div>
 						<div class="fh5co-press-text">
-							<h3 class="h2 fh5co-press-title">زیبایی <span class="fh5co-border"></span></h3>
-							<p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+							<h3 class="h2 fh5co-press-title">تحلیل ساختار سند <span class="fh5co-border"></span></h3>
+							<p>کلمه‌های فارسی در کنار هم می‌آیند و خطوط را شکل می‌دهند. چند خط پیاپی هم، پاراگراف را می‌سازند. همه این اطلاعات که در نوشته‌ها واضح‌اند، در تصویر سند از دست می‌روند و تبدیل به فاصله‌ها و طول‌ها می‌شوند. الفبا همین فاصله‌ها را تحلیل می‌کند و ساختار سند، از جمله خطوط و پاراگراف‌ها را پیدا می‌کند. همچنین محل عکس‌های سند در خروجی حاصل از تحلیل آن مشخص می‌شوند.</p>
 							<!--<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>-->
                     </div>
                 </div>
@@ -555,11 +567,11 @@
 				<div class="col-md-6">
 					<!-- Press Item -->
 					<div class="fh5co-press-item to-animate">
-						<div class="fh5co-press-img" style="background-image: url(images/img_10.jpg);">
+						<div class="fh5co-press-img" style="background: url(images/table.jpg) no-repeat center center / cover;">
 						</div>
 						<div class="fh5co-press-text">
-							<h3 class="h2 fh5co-press-title">خلاقیت <span class="fh5co-border"></span></h3>
-							<p>لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن باشد.</p>
+							<h3 class="h2 fh5co-press-title">حفظ ساختار داده‌های درون جدول <span class="fh5co-border"></span></h3>
+							<p>سندهایی که شکلی از پژوهش یا تحلیل را ارائه می‌کنند، پر هستند از جدول و می‌توان گفت که اعداد یا نوشته‌های درون جدول اهمیت مضاعفی دارند. الفبا با تشخیص ساختار جدول و مشخص کردن خانه‌های آن، محتوی هر خانه را با همان ساختاری که در جدول قرار گرفته‌اند باز می‌گرداند.</p>
 							<!--<p><a href="#" class="btn btn-primary btn-sm">Learn more</a></p>-->
                     </div>
                         </div>
@@ -575,20 +587,7 @@
 		<div class="container">
 			<div class="row row-bottom-padded-sm">
 				<div class="col-md-12">
-					<p class="copyright text-center">&copy;  <a href="index.html"></a>تمامی حقوق این وبسایت متعلق به شرکت دانش‌بنیان «راهکار پردازش ژرف» است <br> <a href="http://sobhe.ir/" target="_blank">الفبا</a></p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<ul class="social social-circle">
-						<li><a href="#"><i class="icon-twitter"></i></a></li>
-						<li><a href="#"><i class="icon-facebook"></i></a></li>
-						<li><a href="#"><i class="icon-youtube"></i></a></li>
-						<li><a href="#"><i class="icon-pinterest"></i></a></li>
-						<li><a href="#"><i class="icon-linkedin"></i></a></li>
-						<li><a href="#"><i class="icon-instagram"></i></a></li>
-						<li><a href="#"><i class="icon-dribbble"></i></a></li>
-					</ul>
+					<p class="copyright text-center">شرکت دانش‌بنیان «<a href="index.html">راهکار پردازش ژرف</a>»</p>
 				</div>
 			</div>
 		</div>
