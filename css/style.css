@@ -221,8 +221,10 @@ ul.social-buttons li:last-child { margin-right: 0; }
 
 #android{
     background-color: #80a755;
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 0;
+    position: relative;
+    overflow: hidden;
 }
 .btn-bazaar{
     width: 128px;
@@ -235,7 +237,7 @@ ul.social-buttons li:last-child { margin-right: 0; }
     z-index: 1;
     margin-bottom: 0;
     padding-bottom: 20px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .section-title{
@@ -329,5 +331,124 @@ ul.social-buttons li:last-child { margin-right: 0; }
 div.text-colored *{
     cursor: pointer;
 }
+
+@media(min-width: 770px){
+    .app-desc.menbar{
+        text-align: right;
+        margin-top: 25vh;
+    }
+
+    .app-desc.zolal{
+        position:relative;
+        text-align: left;
+        height:75vh;
+    }
+
+    /*.menbar.col-xs-12{
+        display: none;
+    }
+
+    .zola.col-xs-12 img{
+        display: none;
+    }
+
+    .menbar.col-sm-3{
+        display: block;
+    }*/
+
+    img.menbar{
+        position: absolute; 
+        width: 47%; 
+        top:25vh; 
+        left: 0;
+    }
+
+    img.zolal{
+        position: absolute; 
+        width: 47%; 
+        bottom:-75vh; 
+        right: 0; 
+    }
+
+    .app-desc.zolal div{
+        position: absolute; 
+        bottom:0px;
+    }
+
+    .laptop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+
+}
+
+@media(max-width: 770px){
+
+    .app-desc.zolal div img{
+        display: block;
+    }
+
+    .laptop {
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    /*.menbar.col-xs-6{
+        display: block;
+    }
+
+    .menbar.col-sm-3{
+        display: none;
+    }*/
+
+    .phone-images{
+        text-align: center;
+    }
+
+    .app-desc.menbar{
+        text-align: center;
+        /* margin-top: 20px; */
+        /* vertical-align: bottom; */
+    }
+
+    .app-desc.zolal{
+        /* position:relative; */
+        text-align: center;
+        height: auto;
+        /* margin-top: 0px; */
+    }
+
+    img.menbar{
+        /* position: absolute; */
+        width: 45%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    img.zolal{
+        /* position: absolute; */
+        width: 45%;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .mobile div{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .mobile div h2{
+        margin-top: 5px;
+    }
+}
+
 
 
