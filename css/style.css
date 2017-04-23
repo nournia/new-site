@@ -333,6 +333,29 @@ div.text-colored *{
 }
 
 @media(min-width: 770px){
+    #cf4a{
+        height: 100vh;
+        min-height: 750px;
+        background:url('../images/imageProcessing.jpg') no-repeat center top;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }
+
+    .naghsh.overlay {
+        background:url('../images/Naghsh.png') no-repeat center top;
+        background-size: cover;
+    }
+
+    .alefba.overlay{
+        background:url('../images/Alefba.png') no-repeat center top;
+        background-size: cover;
+    }
+
+    .golrokh.overlay{
+        background:url('../images/Golrokh.png') no-repeat center top;
+        background-size: cover;
+    }
     .app-desc.menbar{
         text-align: right;
         margin-top: 25vh;
@@ -387,6 +410,29 @@ div.text-colored *{
 }
 
 @media(max-width: 770px){
+
+    #cf4a{
+        height: 100vh;
+        background:url('../images/imageProcessing-mobile.jpg') no-repeat left top;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+    }
+
+    .naghsh.overlay {
+        background:url('../images/Naghsh-mobile.png') no-repeat left top;
+        background-size: cover;
+    }
+
+    .alefba.overlay{
+        background:url('../images/Alefba-mobile.png') no-repeat left top;
+        background-size: cover;
+    }
+
+    .golrokh.overlay{
+        background:url('../images/Golrokh-mobile.png') no-repeat left top;
+        background-size: cover;
+    }
 
     .app-desc.zolal div img{
         display: block;
