@@ -251,17 +251,17 @@ ul.social-buttons li:last-child { margin-right: 0; }
     background: url("https://subtlepatterns.com/patterns/congruent_pentagon.png") !important;
 }
 */
-.footer{
-    height: 25vh;
+/*.footer{
+    min-height: 25vh;
     position: relative;
 }
-
-.footer .container{
+*/
+/*.footer .container{
     position: absolute;
     bottom: 0;
     width: 100%;
 }
-
+*/
 .section-title .dot{
     border-right: 2px rgba(0, 0, 0, 0.48);
     height: 50px;
