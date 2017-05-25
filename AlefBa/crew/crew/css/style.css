@@ -172,13 +172,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: "IRANSans", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   position: relative;
 }
 #fh5co-header #navbar li a span {
   position: relative;
   display: block;
   padding-bottom: 2px;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 #fh5co-header #navbar li a span:before {
   content: "";
@@ -1243,14 +1245,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .h3_home{font-weight: 300;}
-.swag { background: url('../images/library.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
-.swag1 { background: url('../images/papers.jpeg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.swag { background: #f4f4f4; padding-top: 70px; }
+.swag1 { background: url('../images/papers-opt.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
 .swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 120px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(0, 48, 80, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
 .down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(61, 201, 179, 1); }
 
 /*# sourceMappingURL=style.css.map */
+
+.library-swag{
+  background: url('../images/Almacenamiento.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0;
+}
 
 
 
@@ -1270,8 +1276,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .animated{
-    -webkit-animation-delay: 1s !important;
-    animation-delay: 1s !important;
+    -webkit-animation-delay: 0.5s !important;
+    animation-delay: 0.5s !important;
 }
 
 .nav > li{

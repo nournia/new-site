@@ -351,6 +351,7 @@ div.text-colored *{
         min-height: 750px;
         background:url('../images/imageProcessing.jpg') no-repeat center top;
         background-size: cover;
+        background-attachment: fixed;
         position: relative;
         width: 100%;
     }
@@ -358,16 +359,19 @@ div.text-colored *{
     .naghsh.overlay {
         background:url('../images/Naghsh.png') no-repeat center top;
         background-size: cover;
+        background-attachment: fixed;
     }
 
     .alefba.overlay{
         background:url('../images/Alefba.png') no-repeat center top;
         background-size: cover;
+        background-attachment: fixed;
     }
 
     .golrokh.overlay{
         background:url('../images/Golrokh.png') no-repeat center top;
         background-size: cover;
+        background-attachment: fixed;
     }
     .app-desc.menbar{
         text-align: right;
