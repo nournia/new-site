@@ -1317,3 +1317,48 @@ h1{
     font-size: 40px;
     font-weight: 700;
 }
+
+.unslider{
+  position: relative;
+}
+
+.my-slider ul li {
+  text-align: center;
+}
+.my-slider ul li img{
+  width: 90%;
+}
+
+.unslider-arrow {
+    display: block;
+    width: 35px;
+    height: 35px;
+    top: 50%;
+    right: -50px;
+    left: auto;
+    margin-top: -16px;
+    overflow: hidden;
+    background: white;
+    background-image: url(http://shiveh-design.ir/images/arrows-32-32-0.png);
+    border-radius: 33px;
+    text-indent: -999em;
+    border: 3px solid #868686;
+    /* opacity: .6; */
+    transition: opacity .2s;
+}
+
+.unslider-arrow:hover{
+  background-color: #dcdbdb;
+}
+
+.unslider-arrow.next {
+    left: auto;
+    right: 20px;
+    background-position: -34px -1px;
+}
+
+.unslider-arrow.prev {
+    left: 20px;
+    right: auto;
+    background-position: -1px -1px;
+}
