@@ -1255,7 +1255,7 @@ h1, h2, h3, h4, h5, h6 {
 /*# sourceMappingURL=style.css.map */
 
 .library-swag{
-  background: url('../images/Almacenamiento.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0;
+  background: url('../images/pexels-photo-12065.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0;
 }
 
 
@@ -1281,8 +1281,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .animated.tp-caption{
-  -webkit-animation-delay: 0.5s !important;
-  animation-delay: 0.5s !important;
+  -webkit-animation-delay: 1s !important;
+  animation-delay: 1s !important;
 }
 .nav > li{
   float: right !important;
