@@ -277,7 +277,7 @@
 					$(this.element).addClass('animated');
 						
 				}
-			} , { offset: '100%' } );
+			} , { offset: '95%' } );
 		}
 
 	};
