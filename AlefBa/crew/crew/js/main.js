@@ -458,6 +458,8 @@
 		pricingWayPoint();
 		pressWayPoint();
 
+		$('.my-slider').unslider();
+
 	});
 
 
