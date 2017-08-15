@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6,input, textarea, p, span {
-  font-family: IRANSans !important;
+  font-family: IRANSans;
 }
 
 @font-face {
@@ -1317,7 +1317,7 @@ h1{
     background-position: -1px -1px;
 }
 
-.item{
+#slider .item{
   background:url(../images/intro5.jpg) center center no-repeat / cover;
   height: 100vh;
   position: relative;
@@ -1334,6 +1334,68 @@ h1{
   margin-bottom: 10px;
 }
 
+#myCarousel{
+  max-width: 1044px;
+  margin: 50px auto;
+  box-shadow: 0px -2px 2px #eeeeee;
+  border: 4px solid;
+  border-color: rgba(0, 0, 0, 0.8);
+
+}
+.carousel-caption {
+  direction: rtl;
+  text-align: right;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 20px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #e6e6e6;
+  text-shadow: 0 1px 1px #333;
+}
+.carousel-caption p {
+  line-height: 20px;
+  margin-bottom: 0;
+}
+ol.carousel-indicators {
+  direction: ltr;
+  left: 20px;
+  bottom: 12px;
+  margin: 0;
+  text-align: initial;
+}
+ol.carousel-indicators li {
+  border-color: #bbb;
+}
+ol.carousel-indicators li.active {
+  background-color: #e6e6e6;
+}
+.carousel-inner {
+  background-color: #ccc;
+}
+.carousel-inner img {
+  width: 100%;
+}
+.carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+.carousel-inner .active {
+  opacity: 1;
+}
+.carousel-inner .active.left,
+.carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-inner .next.left,
+.carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-control {
+  z-index: 2;
+}
 /*#business{
   opacity: 0.8;
   height: 520px;
