@@ -781,7 +781,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer {
-  padding: 50px 0;
+  padding: 20px 0;
+  margin-top: 200px;
   color: #7f7f7f;
 }
 #footer .copyright {
@@ -1366,11 +1367,12 @@ ol.carousel-indicators {
   text-align: initial;
 }
 ol.carousel-indicators li {
-  border-color: #bbb;
+  border-color: #fff;
+  border-width: 2px;
 }
 ol.carousel-indicators li.active {
-  background-color: #e6e6e6;
-}
+  background-color: #fff;
+} 
 .carousel-inner {
   background-color: #ccc;
 }
